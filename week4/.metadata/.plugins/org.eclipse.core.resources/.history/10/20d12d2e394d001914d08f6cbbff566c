@@ -1,0 +1,11 @@
+package week4;
+
+public class Cat extends Animal {
+	//static 변수 필요
+	private static int count;
+	
+	public void sound() {
+		System.out.println("야~옹");
+	}
+
+}

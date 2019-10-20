@@ -1,0 +1,21 @@
+package week6;
+
+public class Staff extends Person implements IJob,IPin {
+	double pay;
+	
+	Staff(){
+	}
+	public double getPay(double hour) {
+		return hour*8000;
+	}
+	
+	public int getPin() {
+		return (int)(10+99*Math.random());
+	}
+	@Override
+	public String toString() {
+		return "Staff [pay=" + pay + "]";
+	}
+
+	
+}

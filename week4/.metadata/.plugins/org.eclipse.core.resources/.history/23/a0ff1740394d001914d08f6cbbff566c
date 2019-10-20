@@ -1,0 +1,25 @@
+package week4;
+
+public class Cat extends Animal {
+	//static 변수 필요
+	private static int count;
+	private String name;
+	//생성자
+	Cat(){
+		this("anonymous");
+		count++;
+	}
+	Cat(String name){
+		this.name = name;
+		count++;
+	}
+	
+	public void sound() {
+		System.out.println("야~옹");
+	}
+	@Override
+	public String toString() {
+		return "Cat [name=" + name + "]";
+	}
+
+}

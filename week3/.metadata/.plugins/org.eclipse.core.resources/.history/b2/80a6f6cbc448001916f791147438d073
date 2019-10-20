@@ -1,0 +1,38 @@
+package week3;
+
+public class SmartPhone {
+	private int memory;	//메모리 크기
+	private boolean hasBluetooth;	//블루투스지원여부
+	
+	SmartPhone(){
+		this(0,false);
+	}
+	SmartPhone(int memory){
+		this(1024,false);
+	}
+	SmartPhone(int memory,boolean hasBluetooth){
+		this.memory = memory;
+		this.hasBluetooth = hasBluetooth;
+	}
+	
+	
+	public int getMemory() {
+		return memory;
+	}
+	public void setMemory(int memory) {
+		this.memory = memory;
+	}
+	public boolean isHasBluetooth() {
+		return hasBluetooth;
+	}
+	public void setHasBluetooth(boolean hasBluetooth) {
+		this.hasBluetooth = hasBluetooth;
+	}
+	@Override
+	public String toString() {
+		return "SmartPhone [memory=" + memory + ", hasBluetooth=" + hasBluetooth + "]";
+	}
+	
+	
+
+}

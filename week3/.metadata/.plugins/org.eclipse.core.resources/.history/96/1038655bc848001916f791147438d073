@@ -1,0 +1,8 @@
+package week3;
+
+public class Grape {
+	public String me() {
+		return "나는 포도";
+	}
+
+}

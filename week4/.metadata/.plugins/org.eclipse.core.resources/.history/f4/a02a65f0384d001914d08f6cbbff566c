@@ -1,0 +1,12 @@
+package week4;
+
+public abstract class Animal {	//Animal클래스로 객체 생성을 하지 않겠다.
+	public String kind;
+	
+	public void reaction() {
+		
+	}
+	
+	public abstract void sound();
+
+}

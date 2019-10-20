@@ -1,0 +1,19 @@
+package week6;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person[] p = new Student[6];
+		p[0] = new Student();
+		p[1] = new Student("benny",20);
+		p[2] = new Student();
+		p[3] = new Student(2015);
+		p[4] = new Staff();
+		p[5] = new Staff();
+		
+		for(Person obj : p)
+			System.out.println(obj);
+	}
+}

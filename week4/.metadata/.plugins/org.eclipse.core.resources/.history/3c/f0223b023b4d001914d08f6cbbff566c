@@ -1,0 +1,31 @@
+package week4;
+
+public class Dog extends Animal {
+	//static º¯¼ö ÇÊ¿ä
+	private static int count;
+	private String name;
+	
+	Dog(){
+		this("anonymous");
+	}
+	
+	Dog(String name){
+		this.name = name;
+	}
+	
+	public void sound() {
+		System.out.println("¸Û¸Û");
+		count++;
+	}
+	
+	public static int getCountDog() {
+		return count;
+	}
+
+	@Override
+	public String toString() {
+		return name+"°­¾ÆÁö";
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package week6;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Icontrollable c = new Icontrollable() {
+			public void play() {
+				System.out.println("PLAY");
+			}
+			public void stop() {
+				System.out.println("STOP");
+			}
+		};
+		c.play();
+		c.stop();
+	}
+
+};

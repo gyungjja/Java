@@ -1,0 +1,10 @@
+package week4;
+
+public class Dog extends Animal {
+	//static º¯¼ö ÇÊ¿ä
+	private static int count;
+	public void sound() {
+		System.out.println("¸Û¸Û");
+	}
+
+}

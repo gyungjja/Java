@@ -1,0 +1,25 @@
+package week10;
+import java.util.Random;
+public class Die {
+	
+	Random number = new Random(3);
+	
+	number = (int)(Math.random()*6)+ 1;
+	
+	
+	@Override
+	public String toString() {
+		return "Die [number=" + n + "]";
+	}
+	
+	/*
+	Die(){
+		
+	}
+	Die(int n){
+		this.number = n;
+	}
+	*/
+	
+	
+}

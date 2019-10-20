@@ -1,0 +1,13 @@
+package week6;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person[] p = new Person[6];
+		p[0] = new Person();
+		p[1] = new Person("benny",20);
+
+	}
+}

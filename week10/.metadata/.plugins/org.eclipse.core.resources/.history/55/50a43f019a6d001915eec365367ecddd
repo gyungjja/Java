@@ -1,0 +1,11 @@
+package week10;
+import java.util.StringTokenizer;
+public class exam13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] tmp = args[0].split(" ");
+		System.out.println(args);
+	}
+
+}

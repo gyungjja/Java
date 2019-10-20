@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;week9.giko&apos; to &apos;exam3&apos;&#x0D;&#x0A;- Original project: &apos;week9&apos;&#x0D;&#x0A;- Original element: &apos;week9.giko&apos;&#x0D;&#x0A;- Renamed element: &apos;week9.exam3&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;giko&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;week9{giko.java[giko" matchStrategy="1" name="exam3" qualified="false" references="true" similarDeclarations="false" stamp="1559913669500" textual="false" version="1.0"/>
+</session>
